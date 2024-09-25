@@ -1,0 +1,4 @@
+SELECT nbr_collobs, id_fonction, nom_fonction
+	FROM public.fonction;
+insert into fonction (nbr_collobs, id_fonction, nom_fonction ) values (0,'0000', 'unknow')
+insert into fonction (nbr_collobs, id_fonction, nom_fonction ) values (17,'0276', 'Developpeur Informatique'),(12,'0041', 'Responsable des Ventes'),(10,'0167', 'Responsable du Stock'),(15,'0015', 'Responsable RH'),(7,'0054', 'Administrateur Bases de Données'),(11,'0042', 'Responsable Relation-Client'),(2,'0227', 'Directeur Marketting'),(14,'0044', 'Chef de Projet Informatique'),(2,'0083', 'Directeur Financier'),(11,'0010', 'Assistant RH')
