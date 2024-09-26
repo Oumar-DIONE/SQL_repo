@@ -17,10 +17,10 @@ ALTER TABLE IF EXISTS public.absences
 
 select * from absences
 
-insert into absences values ('SQ080','2021-07-31','2021-08-05','Congé payé'),
-('SZ889','2021-09-01','2021-09-01','Congé payé'),
-('WB034','2021-08-12','2021-08-12',' Retard')
-,('MP985','2021-09-16','2021-09-17','Absence non justifiée')
-,('ME845','2021-09-07','2021-09-09','Certificat Maladie')
-
+insert into absences values ('SQ080','2021-07-31','2021-08-05','Congé payé',45),
+('SZ889','2021-09-01','2021-09-01','Congé payé',1.5),
+('WB034','2021-08-12','2021-08-12',' Retard',7.5)
+,('MP985','2021-09-16','2021-09-17','Absence non justifiée',15)
+,('ME845','2021-09-07','2021-09-09','Certificat Maladie',22.5);
 select * from absences
+
